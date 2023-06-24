@@ -8,7 +8,7 @@ O objetivo desse repositório é reunir exemplos práticos de uso do Docker. Al�
 
 1. O que é o Docker?
 2. Como instalar e usar?
-3. Os primeiros passos.
+3. Os primeiros passos
 4. Docker Images
 5. Dockerfile
 6. Trabalhando com Volumes
