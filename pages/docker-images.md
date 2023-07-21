@@ -6,13 +6,13 @@ As imagens são as aplicações em si. Por exemplo, quando você deseja rodar um
 
 ### Comandos
 
-#### Para listar todas as imagens disponíveis na sua máquina
+#### Listar todas as imagens disponíveis na sua máquina
 
 ```
 docker images
 ```
 
-#### Para baixar uma imagem 
+#### Baixar uma imagem 
 
 ```
 docker pull {image-name}:{tag}
@@ -22,7 +22,7 @@ Caso queira baixar a última versão disponível basta não colocar a tag
 
 Exemplo: `docker pull postgres:10`
 
-#### Para verificar detalhes da imagens e ver informações como data de criação, variáveis de ambiente utilizadas, etc
+#### Verificar detalhes da imagens e ver informações como data de criação, variáveis de ambiente utilizadas, etc
 
 ```
 docker image inspect {image-name}
@@ -30,7 +30,15 @@ docker image inspect {image-name}
 
 Exemplo: `docker image inspect postgres`
 
-#### Para remover uma imagem
+#### Enviar imagem para Docker Hub
+
+```
+docker push {image-name}
+```
+
+Exemplo: `docker push ramoncunha/nodejs`
+
+#### Remover uma imagem
 
 ```
 docker image rm {image-id}
@@ -43,7 +51,7 @@ docker image rm {image-name}
 
 Exemplo: `docker image rm 7164c9b9f1f7`
 
-#### Para remover todas as imagens de uma só vez
+#### Remover todas as imagens de uma só vez
 
 ```
 docker rmi $(docker images -q)
