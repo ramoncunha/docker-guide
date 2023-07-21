@@ -10,7 +10,7 @@ O objetivo desse repositório é reunir exemplos práticos de uso do Docker. Al�
 2. Como instalar e usar?
 3. Os primeiros passos
 4. [docker images](pages/docker-images.md)
-5. docker run
+5. [docker run](pages/docker-run.md)
 6. Dockerfile
 7. Trabalhando com Volumes
 8. Networking
