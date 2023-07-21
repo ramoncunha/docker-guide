@@ -33,7 +33,7 @@ Dessa forma ficará mais fácil executar comando sobre esse conteinêr.
 #### Associar um volume do seu computador
 
 ```
-docker run -v {source-path}:{target-path-container} {image-name}
+docker run -v {source-path}:{target-path-conteinêr} {image-name}
 ```
 
 Exemplo: `docker run -v .:/var/www node`
@@ -41,7 +41,7 @@ Exemplo: `docker run -v .:/var/www node`
 #### Associar uma porta para comunicação local x conteinêr
 
 ```
-docker run -v {source-path}:{target-path-container} {image-name}
+docker run {image-name} -p {porta-local}:{porta-conteinêr}
 ```
 
-Exemplo: `docker run -v .:/var/www node`
+Exemplo: `docker run node -p 3000:3000`
