@@ -15,7 +15,7 @@ docker images
 #### Baixar uma imagem 
 
 ```
-docker pull {image-name}:{tag}
+docker pull <IMAGE_NAME>
 ```
 
 Caso queira baixar a última versão disponível basta não colocar a tag
@@ -25,7 +25,7 @@ Exemplo: `docker pull postgres:10`
 #### Verificar detalhes da imagens e ver informações como data de criação, variáveis de ambiente utilizadas, etc
 
 ```
-docker image inspect {image-name}
+docker image inspect <IMAGE_NAME>
 ```
 
 Exemplo: `docker image inspect postgres`
@@ -33,7 +33,7 @@ Exemplo: `docker image inspect postgres`
 #### Enviar imagem para Docker Hub
 
 ```
-docker push {image-name}
+docker push <IMAGE_NAME>
 ```
 
 Exemplo: `docker push ramoncunha/nodejs`
@@ -41,12 +41,12 @@ Exemplo: `docker push ramoncunha/nodejs`
 #### Remover uma imagem
 
 ```
-docker image rm {image-id}
+docker image rm <IMAGE_ID>
 ```
 ou 
 
 ```
-docker image rm {image-name}
+docker image rm <IMAGE_NAME>
 ```
 
 Exemplo: `docker image rm 7164c9b9f1f7`
