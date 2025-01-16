@@ -7,7 +7,7 @@ O objetivo do `attach` √© travar o seu terminal a um container rodando na sua m√
 ### Comandos
 
 ```
-docker attach {id-do-container}
+docker attach <CONTAINER_ID>
 ```
 
 Para sair do modo attach digite CTRL + D.

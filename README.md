@@ -1,4 +1,4 @@
-# Guia Prático do Docker
+# Guia Prático do Docker 🚢
 
 ## Introdução
 
@@ -15,7 +15,11 @@ https://ramoncunha.github.io/docker-guide/
 4. [docker images](pages/docker-images.md)
 5. [docker run](pages/docker-run.md)
 6. [docker attach](pages/docker-attach.md)
-7. [Dockerfile](pages/dockerfile-.md)
-8. Trabalhando com Volumes
-9. Networking
+7. [docker exec](pages/docker-exec.md)
+8. [Dockerfile](pages/dockerfile-.md)
+9. [docker build](pages/docker-build.md)
+10. [docker buildx](pages/docker-buildx.md)
+11. [docker volume]
+12. [docker cp]
+13. [docker tag]
 
